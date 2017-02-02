@@ -12,7 +12,7 @@ Currently supports SCORM 1.2 standard, but not yet SCORM 2004.  It supports mult
 * Add to your `server-vars.yml` file this entry underneath the `EDXAPP_EXTRA_REQUIREMENTS` key
     
 ```
-    - name: 'git+https://github.com/valutac/edx_xblock_scorm@use_ssla_player#egg=scormxblock'
+    - name: 'git+https://github.com/valutac/edx_xblock_scorm#egg=edx_xblock_scorm'
 ```
 
 * Configure a SCORM player backend in the XBlock settings, under the `"ScormXBlock"`.  Currently you must provide the SSLA player by JCA Solutions. 
