@@ -22,13 +22,14 @@ def package_data(pkg, roots):
 
 setup(
     name='scormxblock-xblock',
-    version='0.1',
-    description='scormxblock XBlock',   # TODO: write a better description.
+    version='0.3.1',
+    description='XBlock to integrate SCORM content packages',
     packages=[
         'scormxblock',
     ],
     install_requires=[
         'XBlock',
+        'mako',
     ],
     entry_points={
         'xblock.v1': [
